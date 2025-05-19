@@ -40,10 +40,10 @@ for i in range(h-1, -1, -1) :
 cnt =0
 for i in range(h) :
     for j in range(w) :
-        print(box[i][j],end='')
+        # print(box[i][j],end='')
         if box[i][j] == '-':
             cnt+=1
-    print()
+    # print()
 
 print(cnt)
         
